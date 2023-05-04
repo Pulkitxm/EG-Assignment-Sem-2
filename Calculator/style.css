@@ -1,93 +1,77 @@
-* {
-    margin: 0;
-    padding: 0;
+body{
+    background-color: brown;
 }
-
-body {
-    background: #bebebe;
-}
-
-.container {
-    margin: auto;
-    width: 100%;
-    height: 100vh;
+.Heading{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: auto ;
+    border: solid 2px black;
+    height: 700px;
+    width: 700px;
+    margin-top: 80px;
+    background-color: rgb(157, 78, 247);
 }
-
-.head {
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.head h1 {
-    font-size: 1.5em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-}
-
-.head h1 a {
-    color: black;
-    text-decoration: none;
-}
-
-.calculator {
-    width: 27vw;
-    margin: auto;
-    margin-bottom: 100px;
-    background-color: #3a4452;
-    padding: 2em;
-    border-radius: 1em;
-}
-
-.calculator form div input {
-    outline: 0;
-    border: 0;
-    width: 4.5vw;
-    height: 3em;
-    border-radius: 1em;
-    margin: .8em;
-    box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0, 0.2);
-    background: transparent;
-    font-size: 1.5em;
-    color: #fff;
-    cursor: pointer;
-    transition: .2s;
-}
-
-
-.calculator form div input:hover {
-    color: #428eff;
-    /* box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.1) , 5px 5px 15px rgba(255, 255, 255, 0.2) */
-
-}
-
-.display {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 0;
-
-}
-
-.display input {
-    text-align: center;
-    flex: 1;
-    font-size: 45px;
-}
-
-.display input:hover {
+.container .display-container{
+    border: solid 2px black;
+    height: 100px;
+    width: 650px;
+    margin-bottom: 20px;
     cursor: text;
+    background-color: rgb(233, 216, 20);
+    
 }
-
-#eq {
-    /* margin-left: 2.5em;
-    height: 2em;*/
-    width: 11.1vw;
-}
-
-#operators {
-    background: #fff;
-    color: #3a4452;
+.container .main-container{
+    border: solid 2px black;
+    height: 510px;
+    width: 650px;
+    background-color: rgb(78, 247, 83);
 
 }
+.container .main-container .row {
+    display: flex;
+    font-size: 60px;
+    
+}
+.container .main-container .row .button{
+    border: solid 2px black;
+    width: 132px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 17px;
+    background-color: rgb(236, 59, 59);
+}
+.container .main-container .row .button:hover{
+    cursor: pointer;
+    background-color: rgb(226, 149, 149);
+}
+.container .main-container .row .button-eq{
+    border: solid 2px black;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 17px;
+    background-color: rgb(19, 203, 228);
+}
+.container .main-container .row .button-eq:hover {
+    cursor: pointer;
+    background-color: rgb(134, 225, 237);
+}
+
+.container .display-container:hover{
+    background-color: rgb(196, 194, 194);
+
+}
+.container .display-container:hover{
+    background-color: rgb(235, 229, 156);
+    
+    }
