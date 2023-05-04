@@ -1,0 +1,56 @@
+.container{
+    /* height: 100px; */
+    width: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container>h1{
+    font-size: 40px;
+}
+.container>img{
+    margin-top: 10px;
+    width: 1100px;
+}
+.container .white{
+    width:100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .txt-1{
+    margin-bottom: 20px;
+}
+.container .txt-2{
+    margin: 20px 0;
+}
+.container .tagline{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 35px 0;
+}
+#year{
+    display: inline;
+    font-weight: bold;
+}
+.container ul {
+    width: 533px;
+}
+.container ul li{
+    font-size: 20px;
+    margin: 13px 0;
+}
+.container .quote{
+    width: 533px;
+    font-size: 25px;
+    
+}
+.container ul li,
+.container .quote{
+    color: #333;
+}
