@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+img{
+    cursor: pointer;
+}
+
+.nav {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav .ham{
+    width: 30px;
+    padding: 0 10px 0 0;
+}
+.nav .yt {
+    width: 64px;
+}
+.nav .text{
+    font-size: 35px;
+}
+.nav .mic{
+    position: relative;
+    top: 10px;
+    left: 12px;
+    width: 30px;
+}
+
+.nav .search{
+    margin: 0 auto;
+}
+
+.nav img{
+    width: 35px;
+}
+
+.nav .inp{
+    width: 800px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+.nav .cam , .nav .bell{
+    padding: 10px;
+}
+.nav .Pulkit{
+    width: 70px;
+    height: 50px;
+    border: solid 7px black;
+    border-radius: 70%;
+}
+
+.full {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 21zzpx 0;
+}
+.full .Video{
+    border: solid 2px black;
+    height: 200px;
+    width: 400px;
+    margin: 0 45px;
+}
+.full .Video img{
+    height: 200px;
+    width: 400px;
+
+}
+.full .Pulkit{
+    width: 50px;
+    
+}
+.full .text{
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+}
+.full .text img{
+    border-radius: 100%;
+
+}
+
+.container{
+    display: flex;
+
+}
+
+
+.container .slidebar .itm{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .element{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 240px;
+    height: 55px;
+    padding-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 6px;
+}
+img , .Pulkitimg{
+    padding-right: 20px;
+    width: 29px;
+}
+#active , .container .element:hover{
+        background-color: #c0c0c0;
+}
+hr{
+    width: 260px;
+}
+.container .element .Pulkitimg{
+    border-radius: 100%;
+    width: 60px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
