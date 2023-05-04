@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sigmar&display=swap');
+body{
+    background: rgb(0,0,0,0.7) url(assets/almonds.jpg) no-repeat ;
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .menu{
+    background-color: #DEB887;
+    height: 900px;
+    width: 700px;
+}
+.container .menu h1{
+    font-family:'Sigmar';
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+.container .menu .head{
+    text-align: center;
+}
+.container .menu .coffee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coffee {
+    font-size:50px;
+    font-family:'Sigmar';
+    margin-top: 60px;
+    
+}
+.container .menu .coffee img{
+    width: 50px;
+    
+}
+.price{
+    display: inline;
+    text-align: right;
+}
+
+.container .menu .items{
+    margin: auto;
+    font-size: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    height:5px;
+}
+.cn{
+    margin-top: 30px;
+    text-align: center;
+}
