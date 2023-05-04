@@ -1,0 +1,91 @@
+body{
+    background-color: #1dbb9c;
+}
+.container {
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.container .login{
+    background-color: white;
+    height: 750px;
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+.container .login > h1{
+    color: black;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 100;
+}
+
+.container .login .details{
+    height: 550px;
+    width: 610px;
+    /* border: solid 2px black; */
+}
+.container .login .details .field{
+    color: #1dbb9c ;
+    /* text-align: center; */
+    font-weight: normal;
+    font-size: 30px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .login .details .field input{
+    border: solid 2px black;
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 517px;
+    height: 40px;
+    margin-bottom: 60px ;
+}
+
+.container .login .details .field input:hover,
+.container .login .details .field input:focus{
+    border: solid 2px #1dbb9c; 
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+}
+.container .login .details .field button{
+    width: 300px;
+    height: 65px;
+    margin: auto;
+    font-size: 35px;
+    color: white;
+    background-color: #1dbb9c;
+    margin-bottom: 25px;
+    cursor: pointer;
+    border: 0px;
+}
+.container .login .details .field button:hover{
+    background-color: #00ffcc;
+
+}
+.container .login .details .field .forgot{
+    text-align: center;
+    color: black;
+}
+.container .login .details .field .forgot:hover{
+    cursor: pointer;
+}
