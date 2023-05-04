@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #232325;
+}
+.nav{
+    background: #BE3144;
+    height: 60px;
+    font-size: 32px;
+    position: fixed;
+    right: 0;
+    width: 100%;
+}
+.nav ul,.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    margin: 0 10px;
+}
+.nav ul li a:hover{
+    color: #45567D;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+#about , #contact , #work{
+    height: 100vh;
+    width: 98.99vw;
+    /* border: solid 2px black; */
+}
+#about,#contact{
+    background: linear-gradient(rgb(92, 91, 91) 10%, #232325 100%);
+}
+#work{
+    background-color: #45567D;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about .first-line{
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+}
+#about .second-line{
+    text-align: center;
+    color:#BE3039;
+    font-size: 17px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+#contact h1{
+    color:white;
+    font-size: 50px;
+    font-weight:normal;
+    margin-bottom: 10px;
+}
+#contact h3{
+    color: white;
+    font-weight:normal;
+    margin-bottom: 70px;
+}
+#contact .icons ul {
+    list-style: none;
+    display: flex;
+}
+
+#contact .icons ul li{
+    padding: 10px;
+    text-decoration: none;
+}
+#contact .icons ul li:nth-child(1){
+    color: rgb(138, 138, 255);
+}
+#contact .icons ul li:nth-child(2){
+    color: rgb(109, 109, 109);
+}
+#contact .icons ul li:nth-child(3){
+    color: rgb(53, 83, 255);
+}
+
+.footer{
+    text-align: center;
+    position: relative;
+    color: white;
+    bottom: 10px;
+}
+.footer hr{
+    margin: auto;
+    width: 98vw;
+    height: 5px;
+}
+#work{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#work .head{
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+}
+#work .head h2{
+    margin-top: 55px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+#work div img{
+    width: 400px;
+    height: 400px;
+    margin: 0 15px;
+}
+#work div {
+    display: flex;
+}
+#work div p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
